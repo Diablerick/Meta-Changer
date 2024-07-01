@@ -223,7 +223,6 @@ root.title("Meta Changer")
 root.geometry("270x320")
 menubar = tk.Menu(root)
 root.config(menu=menubar)
-icon = tk.PhotoImage(file="logo.png")
 root.iconphoto(True, icon)
 root.resizable(width=False, height=False)
 
